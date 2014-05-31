@@ -1,0 +1,24 @@
+default:
+    - 'design'
+
+build:
+    - 'clean'
+    - 'jshint   '
+    - 'assemble'
+    - 'sass'
+    - 'copy'
+    - 'docs'
+
+# Build HTML, compile LESS and watch for changes. You must first run "bower install"
+# or install Bootstrap to the "vendor" directory before running this command.
+design:
+    - 'clean'
+    - 'assemble'
+    - 'sass:dist'
+    # - 'watch:site'
+    - 'copy'
+    - 'connect:server'
+
+docs:
+    - 'readme'
+    - 'sync'

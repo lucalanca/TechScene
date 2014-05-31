@@ -1,0 +1,62 @@
+---
+title: Companies
+lead: <%= site.lead %> # this is used by the subhead component
+section_title: Success Stories
+section_subtitle: Awesome companies that are worth to mention
+---
+<div class="fullwidth-container">
+    <section class="grid-container c1">
+        <h2 class="title centered">{{section_title}}</h2>
+        <p class="subtitle centered">{{section_subtitle}}</p>
+        <ul class="grid-list">
+            {{#each porto.success_stories}}
+                {{#unless hide}}
+                <li class="grid-item">
+                    <div class="header">
+                        <img alt="{{name}}"
+                             class="company-logo"
+                             src="/assets/images/{{logo}}">
+                        <span class="info">{{info}}</span>
+                    </div>
+                    <div class="details">
+                        <span class="company-name">{{name}}</span>
+                        <span class="grid-detail">
+                            <span class="icon icon-users-1"></span>
+                            {{employees}}
+                        </span>
+                        <span class="grid-detail">
+                            <span class="icon icon-tags-1"></span>
+                            {{tags}}
+                        </span>
+                    </div>
+                </li>
+                {{/unless}}
+            {{/each}}
+            </ul>
+        </section>
+</div>
+
+<div class="fullwidth-container c5">
+    <section class="grid-container">
+        <h2 class="title centered">Companies</h2>
+        <ul class="grid-list">
+        {{#each porto.companies}}
+            <li class="grid-item">
+                <div class="header">
+                    <img alt="{{name}}"
+                         class="company-logo"
+                         src="/assets/images/{{logo}}">
+                </div>
+                <div class="details">
+                    <span class="company-name">{{name}}</span>
+                    <span class="grid-detail">
+                        <span class="icon icon-tags-1"></span>
+                        {{tags}}
+                    </span>
+                </div>
+            </li>
+        {{/each}}
+        </ul>
+    </section>
+</div>
+

@@ -1,0 +1,409 @@
+
+companies: 
+  -
+    name: "Lapa"
+    tags: "Hardware, Mobile"
+    logo: "lapa.png"
+  -
+    name: "Rocket Internet"
+    tags: "incubator"
+    logo: "rocket.jpg"
+  -
+    name: "Farfetch"
+    tags: "E-commerce, Fashion"
+    logo: "farfetch.png"
+  -
+    name: "Todoist"
+    tags: "Mobile, Productivity"
+    logo: "todoist.png"
+  -
+    name: "MuchBeta"
+    tags: ""
+    logo: "muchbeta.png"
+  -
+    name: "Nutri Ventures"
+    tags: ""
+    logo: "nutriventures.png"
+  -
+    name: "Veniam Works"
+    tags: ""
+    logo: "veniamworks.png"
+  -
+    name: "Kinematix"
+    tags: ""
+    logo: "kinematix.png"
+  -
+    name: "Tradiio"
+    tags: "music, streaming"
+    logo: "tradiio.png"
+  -
+    name: "Uniwee"
+    tags: ""
+    logo: "uniwee.png"
+  -
+    name: "Semasio"
+    tags: ""
+    logo: "semasio.gif"
+  -
+    name: "ScrofaTech"
+    tags: ""
+    logo: "scrofatech.png"
+  -
+    name: "Zizabi"
+    tags: ""
+    logo: "zizabi.png"
+  -
+    name: "EspressoMD"
+    tags: ""
+    logo: "espressomd.png"
+  -
+    name: "PaperVault"
+    tags: ""
+    logo: ""
+  -
+    name: "WiseNeworks"
+    tags: ""
+    logo: "wisenetworks.png"
+  -
+    name: "ShiftForward"
+    tags: ""
+    logo: "shiftforward.gif"
+  -
+    name: "Musicverb"
+    tags: ""
+    logo: "musicverb.png"
+  -
+    name: "HealthyRoad"
+    tags: ""
+    logo: "healthyroad.png"
+  -
+    name: "JumpSeller"
+    tags: ""
+    logo: "jumpseller.png"
+  -
+    name: "Covii"
+    tags: ""
+    logo: "covii.png"
+  -
+    name: "Zercatto"
+    tags: ""
+    logo: "zercatto.png"
+  -
+    name: "aprodukt"
+    tags: ""
+    logo: "aprodukt.png"
+  -
+    name: "abyssal"
+    tags: ""
+    logo: "abyssal.png"
+  -
+    name: "Actumvet"
+    tags: ""
+    logo: "actumvet.png"
+  -
+    name: "Alboom pic"
+    tags: ""
+    logo: "alboompic.png"
+  -
+    name: "Anubis Networks"
+    tags: ""
+    logo: "anubisnetworks.png"
+  -
+    name: "AP4"
+    tags: ""
+    logo: "ap4.svg"
+  -
+    name: "Autoviva"
+    tags: ""
+    logo: "autoviva.png"
+  -
+    name: "b Interactive"
+    tags: ""
+    logo: "binteractive.png"
+  -
+    name: "Baboom"
+    tags: ""
+    logo: "baboom.png"
+    hide: true
+  -
+    name: "Digital Soul Games"
+    tags: ""
+    logo: "digitalsoulgames.png"
+  -
+    name: "Canal 180"
+    tags: ""
+    logo: "180.jpg"
+  -
+    name: "Color Elephant"
+    tags: ""
+    logo: "colorelephant.png"
+  -
+    name: "byside"
+    tags: ""
+    logo: "byside.svg"
+  -
+    name: "escolha digital"
+    tags: ""
+    logo: "escolhadigital.png"
+  -
+    name: "email bidding"
+    tags: ""
+    logo: "emailbidding.png"
+  -
+    name: "3Decide"
+    tags: ""
+    logo: "3decide.png"
+  -
+    name: "explicas-me?"
+    tags: ""
+    logo: "explicasme.png"
+  -
+    name: "Claan"
+    tags: ""
+    logo: "claan.png"
+  -
+    name: "Venture Oak"
+    tags: ""
+    logo: "ventureoak.png"
+  -
+    name: "Bit Maker"
+    tags: ""
+    logo: "bitmaker.png"
+  -
+    name: "B3 Ideas"
+    tags: ""
+    logo: "b3ideas.png"
+  -
+    name: "FoodInTech"
+    tags: ""
+    logo: "foodintech.png"
+  -
+    name: "GS78"
+    tags: ""
+    logo: "gamestudio78.png"
+  -
+    name: "Glazed Solutions"
+    tags: ""
+    logo: "glazedsolutions.png"
+  -
+    name: "inov retail"
+    tags: ""
+    logo: "inovretail.png"
+  -
+    name: "cashtag"
+    tags: ""
+    logo: "cashtag.png"
+  -
+    name: "jscrambler"
+    tags: ""
+    logo: "jscrambler.png"
+  -
+    name: "goaba interactive"
+    tags: ""
+    logo: "goaba.png"
+  -
+    name: "get a fest!"
+    tags: ""
+    logo: "gestafest.jpg"
+  -
+    name: "go2oporto"
+    tags: ""
+    logo: "go2oporto.png"
+  -
+    name: "ideavity"
+    tags: ""
+    logo: "ideavity.png"
+  -
+    name: "LabOrders"
+    tags: ""
+    logo: "laborders.png"
+  -
+    name: "Landka"
+    tags: ""
+    logo: "landka.png"
+  -
+    name: "Last2Ticket"
+    tags: ""
+    logo: "last2ticket.jpg"
+  -
+    name: "Listary"
+    tags: ""
+    logo: "listary.jpg"
+  -
+    name: "MassiveMov"
+    tags: ""
+    logo: "massivemov.png"
+  -
+    name: "Memeoirs"
+    tags: ""
+    logo: "memeoirs.png"
+  -
+    name: "Planify"
+    tags: ""
+    logo: "planify.png"
+  -
+    name: "OceanScan"
+    tags: ""
+    logo: "oceanscan.jpeg"
+  -
+    name: "Niiiws"
+    tags: ""
+    logo: "niiiws.png"
+  -
+    name: "netpeças"
+    tags: ""
+    logo: "netpecas.jpeg"
+  -
+    name: "whizztek"
+    tags: ""
+    logo: "whizztek.jpeg"
+  -
+    name: "Portugalio"
+    tags: ""
+    logo: "portugalio.jpeg"
+  -
+    name: "porto24"
+    tags: ""
+    logo: "porto24.jpeg"
+  -
+    name: "orzare"
+    tags: ""
+    logo: "orzare.png"
+  -
+    name: "songvice"
+    tags: ""
+    logo: ""
+  -
+    name: "skilleo"
+    tags: ""
+    logo: "skilleo.png"
+  -
+    name: "Streambolico"
+    tags: ""
+    logo: "streambolico.png"
+  -
+    name: "taggeo"
+    tags: ""
+    logo: "taggeo.png"
+  -
+    name: "top research"
+    tags: ""
+    logo: "topresearch.png"
+  -
+    name: "tuizzi"
+    tags: ""
+    logo: "tuizzi.png"
+  -
+    name: "ueb"
+    tags: ""
+    logo: "ueb.png"
+  -
+    name: "visionspace"
+    tags: ""
+    logo: "visionspace.png"
+  -
+    name: "xhockware"
+    tags: ""
+    logo: "xhockware.jpg"
+  -
+    name: "adjust consulting"
+    tags: ""
+    logo: "adjustconsulting.png"
+  -
+    name: "CardMobili"
+    tags: ""
+    logo: "CardMobili.jpg"
+  -
+    name: "Bunker Studios"
+    tags: ""
+    logo: "bunkerstudios.png"
+  -
+    name: "Hostname"
+    tags: ""
+    logo: "hostname.png"
+  -
+    name: "Ideia.M"
+    tags: ""
+    logo: "ideiam.png"
+  -
+    name: "LatitudeN"
+    tags: ""
+    logo: "latituden.gif"
+  -
+    name: "Venture Catalysts"
+    tags: ""
+    logo: "venturecatalysts.png"
+  -
+    name: "sphere"
+    tags: ""
+    logo: "sphere.jpg"
+  -
+    name: "silicon gate"
+    tags: ""
+    logo: "silicongate.gif"
+  -
+    name: "Flymaster Avionics"
+    tags: ""
+    logo: "flymaster.png"
+  -
+    name: "spawn studios"
+    tags: ""
+    logo: "spawnstudios.png"
+  -
+    name: "tech4home"
+    tags: ""
+    logo: "tech4home.png"
+  -
+    name: "Hero & Creatives"
+    tags: ""
+    logo: "heroandcreatives.jpg"
+  -
+    name: "Gisgeo"
+    tags: ""
+    logo: "gisgeo.png"
+  -
+    name: "clipkit"
+    tags: ""
+    logo: "clipkit.jpg"
+  -
+    name: "flicks"
+    tags: ""
+    logo: "flicks.jpeg"
+  -
+    name: "mediagaps"
+    tags: ""
+    logo: "mediagaps.png"
+success_stories: 
+  - 
+    name: "Blip"
+    employees: "200+"
+    tags: "Sports, Betting"
+    info: "Adquired by Betfair"
+    logo: "blip.svg"
+  -
+    name: "NDrive"
+    employees: "60"
+    tags: "Navigation, Mobile"
+    logo: "ndrive.png"
+  -
+    name: "AdClick"
+    employees: "60+"
+    tags: "Digital Marketing"
+    logo: "adclick.png"
+  -
+    name: "Enabler"
+    employees: "??"
+    tags: "Retail, Business Intelligence"
+    info: "Adquired by Wipro"
+    logo: "enabler.jpg"
+  -
+    name: "Tweasy"
+    employees: "??"
+    tags: "Marketing, Sales"
+    info: "Adquired by Swisscom"
+    logo: "tweasy.png"
+  -
+    name: "Nonius Software"
+    employees: "??"
+    tags: "Hospitality"
+    logo: "nonius.png"

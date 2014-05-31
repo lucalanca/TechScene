@@ -1,0 +1,85 @@
+$grid-item-padding: 10px;
+$grid-item-bg: rgb(240, 240, 240);
+$grid-item-border: rgba(#BBBBBB,.3);
+
+.grid-list {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 2px;
+
+
+    .grid-item {
+        @include span-columns(4);
+        @include omega(3n);
+        
+        margin-bottom: 3*$grid-item-padding;
+        // border: 1px solid $grid-item-border;
+        background: $grid-item-bg;
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px rgba(100,100,100, 0.2);
+
+
+
+        .header {
+            position: relative;
+            background: #fff;
+            height: 160px;
+            display: table-cell;
+            vertical-align: middle;
+            border-bottom: 1px solid $grid-item-border;
+            width: 800px;
+            border-radius: 5px 5px 0 0;
+            .company-logo {
+                margin: 0 auto;
+                display: block;
+                width: 50%;
+            }
+
+            .info {
+                position: absolute;
+                bottom: $grid-item-padding / 2;
+                right: $grid-item-padding;
+                color: #979797;
+                font-size: 11px;
+                line-height: 14px;
+                text-transform: uppercase;
+                font-style: italic;
+            }
+        }
+
+        .details {
+
+            padding: $grid-item-padding/2 $grid-item-padding;
+            span {
+                display: block;
+            }
+
+            .company-name {
+                font-size: 22px;
+                font-weight: bold;
+                line-height: 28px;
+                margin-bottom: $grid-item-padding/2;
+                color: #4A4A4A;
+            }
+
+            .grid-detail {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19px;
+                color: #979797;
+                text-transform: uppercase;
+            }
+            .icon {
+                $icon-size: 20px;
+                width: $icon-size;
+                height: $icon-size;
+                background-size: 25px;
+                margin-right: 5px;
+                margin-top: -1px;
+                margin-left: -6px;
+                float: left;
+            }
+        }
+    }
+}

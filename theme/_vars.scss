@@ -1,0 +1,101 @@
+/*------------------------------------*\
+    VARS.SCSS
+\*------------------------------------*/
+/**
+ * Any variables you find set in inuit.css’ `_vars.scss` that you do not wish to
+ * keep, simply redefine here. This means that if inuit.css, for example, sets
+ * your `$base-font-size` at 16px and you wish it to be 14px, simply redeclare
+ * that variable in this file. inuit.css ignores its own variables in favour of
+ * using your own, so you can completely modify how inuit.css works without ever
+ * having to alter the framework itself.
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $OBJECTS-AND-ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * All of inuit.css’ objects and abstractions are initially turned off by
+ * default. This means that you start any project with as little as possible,
+ * and introducing objects and abstractions is as simple as switching the
+ * following variables to `true`.
+ */
+$use-grids:         false;
+$use-flexbox:       false;
+$use-columns:       false;
+$use-nav:           false;
+$use-options:       false;
+$use-pagination:    false;
+$use-breadcrumb:    false;
+$use-media:         false;
+$use-marginalia:    false;
+$use-island:        false;
+$use-block-list:    false;
+$use-matrix:        false;
+$use-split:         false;
+$use-this-or-this:  false;
+$use-link-complex:  false;
+$use-flyout:        false;
+$use-arrows:        false;
+$use-sprite:        false;
+$use-icon-text:     false;
+$use-beautons:      false;
+$use-lozenges:      false;
+$use-rules:         false;
+$use-stats:         false;
+$use-greybox:       false;
+
+
+
+
+
+/*------------------------------------*\
+    $OVERRIDES
+\*------------------------------------*/
+/**
+ * Place any variables that should override inuit.css’ defaults here.
+ */
+
+
+
+
+/*------------------------------------*\
+    $CUSTOM
+\*------------------------------------*/
+/**
+ * Place any of your own variables that sit on top of inuit.css here.
+ */
+
+/**
+ * Some funky colors
+ */
+$puma:                #292929;
+
+$light-rhino:         #f6f6f6;
+$rhino:               #ccc;
+$elephant:            #858585;
+
+$dark-bluebird:       #6B84A4;
+$bluebird:            #8296C4;
+$light-bluebird:      #F2F4F9;
+
+$dark-gecko:          #859A00;
+$gecko:               #B3BC00;
+$light-gecko:         #F7F7E6;
+
+$brand-color:         #9a0941;
+$light-brand-color:   #f4e6ec;
+$dark-brand-color:    #59000f;
+
+$tiger:               #e27d00;
+$light-tiger:         #f9e5cc;
+
+$parrot:              #CE4646;
+
+$flat-orange:         #EF753F;
+$flat-yellow:         #FED674;
+$flat-blue:           #77B4BE;
+$flat-green:          #BABE77;
