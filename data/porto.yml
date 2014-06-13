@@ -1,409 +1,904 @@
-
 companies: 
-  -
-    name: "Lapa"
-    tags: "Hardware, Mobile"
-    logo: "lapa.png"
-  -
-    name: "Rocket Internet"
-    tags: "incubator"
-    logo: "rocket.jpg"
-  -
-    name: "Farfetch"
-    tags: "E-commerce, Fashion"
-    logo: "farfetch.png"
-  -
-    name: "Todoist"
-    tags: "Mobile, Productivity"
-    logo: "todoist.png"
-  -
-    name: "MuchBeta"
-    tags: ""
-    logo: "muchbeta.png"
-  -
-    name: "Nutri Ventures"
-    tags: ""
-    logo: "nutriventures.png"
-  -
-    name: "Veniam Works"
-    tags: ""
-    logo: "veniamworks.png"
-  -
-    name: "Kinematix"
-    tags: ""
-    logo: "kinematix.png"
-  -
-    name: "Tradiio"
-    tags: "music, streaming"
-    logo: "tradiio.png"
-  -
-    name: "Uniwee"
-    tags: ""
-    logo: "uniwee.png"
-  -
-    name: "Semasio"
-    tags: ""
-    logo: "semasio.gif"
-  -
-    name: "ScrofaTech"
-    tags: ""
-    logo: "scrofatech.png"
-  -
-    name: "Zizabi"
-    tags: ""
-    logo: "zizabi.png"
-  -
-    name: "EspressoMD"
-    tags: ""
-    logo: "espressomd.png"
-  -
-    name: "PaperVault"
-    tags: ""
-    logo: ""
-  -
-    name: "WiseNeworks"
-    tags: ""
-    logo: "wisenetworks.png"
-  -
-    name: "ShiftForward"
-    tags: ""
-    logo: "shiftforward.gif"
-  -
-    name: "Musicverb"
-    tags: ""
-    logo: "musicverb.png"
-  -
-    name: "HealthyRoad"
-    tags: ""
-    logo: "healthyroad.png"
-  -
-    name: "JumpSeller"
-    tags: ""
-    logo: "jumpseller.png"
-  -
-    name: "Covii"
-    tags: ""
-    logo: "covii.png"
-  -
-    name: "Zercatto"
-    tags: ""
-    logo: "zercatto.png"
-  -
-    name: "aprodukt"
-    tags: ""
-    logo: "aprodukt.png"
-  -
-    name: "abyssal"
-    tags: ""
-    logo: "abyssal.png"
-  -
-    name: "Actumvet"
-    tags: ""
-    logo: "actumvet.png"
-  -
-    name: "Alboom pic"
-    tags: ""
-    logo: "alboompic.png"
-  -
-    name: "Anubis Networks"
-    tags: ""
-    logo: "anubisnetworks.png"
-  -
-    name: "AP4"
-    tags: ""
-    logo: "ap4.svg"
-  -
-    name: "Autoviva"
-    tags: ""
-    logo: "autoviva.png"
-  -
-    name: "b Interactive"
-    tags: ""
-    logo: "binteractive.png"
-  -
-    name: "Baboom"
-    tags: ""
-    logo: "baboom.png"
-    hide: true
-  -
-    name: "Digital Soul Games"
-    tags: ""
-    logo: "digitalsoulgames.png"
-  -
-    name: "Canal 180"
-    tags: ""
-    logo: "180.jpg"
-  -
-    name: "Color Elephant"
-    tags: ""
-    logo: "colorelephant.png"
-  -
-    name: "byside"
-    tags: ""
-    logo: "byside.svg"
-  -
-    name: "escolha digital"
-    tags: ""
-    logo: "escolhadigital.png"
-  -
-    name: "email bidding"
-    tags: ""
-    logo: "emailbidding.png"
-  -
-    name: "3Decide"
-    tags: ""
-    logo: "3decide.png"
-  -
-    name: "explicas-me?"
-    tags: ""
-    logo: "explicasme.png"
-  -
-    name: "Claan"
-    tags: ""
-    logo: "claan.png"
-  -
-    name: "Venture Oak"
-    tags: ""
-    logo: "ventureoak.png"
-  -
-    name: "Bit Maker"
-    tags: ""
-    logo: "bitmaker.png"
-  -
-    name: "B3 Ideas"
-    tags: ""
-    logo: "b3ideas.png"
-  -
-    name: "FoodInTech"
-    tags: ""
-    logo: "foodintech.png"
-  -
-    name: "GS78"
-    tags: ""
-    logo: "gamestudio78.png"
-  -
-    name: "Glazed Solutions"
-    tags: ""
-    logo: "glazedsolutions.png"
-  -
-    name: "inov retail"
-    tags: ""
-    logo: "inovretail.png"
-  -
-    name: "cashtag"
-    tags: ""
-    logo: "cashtag.png"
-  -
-    name: "jscrambler"
-    tags: ""
-    logo: "jscrambler.png"
-  -
-    name: "goaba interactive"
-    tags: ""
-    logo: "goaba.png"
-  -
-    name: "get a fest!"
-    tags: ""
-    logo: "gestafest.jpg"
-  -
-    name: "go2oporto"
-    tags: ""
-    logo: "go2oporto.png"
-  -
-    name: "ideavity"
-    tags: ""
-    logo: "ideavity.png"
-  -
-    name: "LabOrders"
-    tags: ""
-    logo: "laborders.png"
-  -
-    name: "Landka"
-    tags: ""
-    logo: "landka.png"
-  -
-    name: "Last2Ticket"
-    tags: ""
-    logo: "last2ticket.jpg"
-  -
-    name: "Listary"
-    tags: ""
-    logo: "listary.jpg"
-  -
-    name: "MassiveMov"
-    tags: ""
-    logo: "massivemov.png"
-  -
-    name: "Memeoirs"
-    tags: ""
-    logo: "memeoirs.png"
-  -
-    name: "Planify"
-    tags: ""
-    logo: "planify.png"
-  -
-    name: "OceanScan"
-    tags: ""
-    logo: "oceanscan.jpeg"
-  -
-    name: "Niiiws"
-    tags: ""
-    logo: "niiiws.png"
-  -
-    name: "netpeças"
-    tags: ""
-    logo: "netpecas.jpeg"
-  -
-    name: "whizztek"
-    tags: ""
-    logo: "whizztek.jpeg"
-  -
-    name: "Portugalio"
-    tags: ""
-    logo: "portugalio.jpeg"
-  -
-    name: "porto24"
-    tags: ""
-    logo: "porto24.jpeg"
-  -
-    name: "orzare"
-    tags: ""
-    logo: "orzare.png"
-  -
-    name: "songvice"
-    tags: ""
-    logo: ""
-  -
-    name: "skilleo"
-    tags: ""
-    logo: "skilleo.png"
-  -
-    name: "Streambolico"
-    tags: ""
-    logo: "streambolico.png"
-  -
-    name: "taggeo"
-    tags: ""
-    logo: "taggeo.png"
-  -
-    name: "top research"
-    tags: ""
-    logo: "topresearch.png"
-  -
-    name: "tuizzi"
-    tags: ""
-    logo: "tuizzi.png"
-  -
-    name: "ueb"
-    tags: ""
-    logo: "ueb.png"
-  -
-    name: "visionspace"
-    tags: ""
-    logo: "visionspace.png"
-  -
-    name: "xhockware"
-    tags: ""
-    logo: "xhockware.jpg"
-  -
-    name: "adjust consulting"
-    tags: ""
-    logo: "adjustconsulting.png"
-  -
-    name: "CardMobili"
-    tags: ""
-    logo: "CardMobili.jpg"
-  -
-    name: "Bunker Studios"
-    tags: ""
-    logo: "bunkerstudios.png"
-  -
-    name: "Hostname"
-    tags: ""
-    logo: "hostname.png"
-  -
-    name: "Ideia.M"
-    tags: ""
-    logo: "ideiam.png"
-  -
-    name: "LatitudeN"
-    tags: ""
-    logo: "latituden.gif"
-  -
-    name: "Venture Catalysts"
-    tags: ""
-    logo: "venturecatalysts.png"
-  -
-    name: "sphere"
-    tags: ""
-    logo: "sphere.jpg"
-  -
-    name: "silicon gate"
-    tags: ""
-    logo: "silicongate.gif"
-  -
-    name: "Flymaster Avionics"
-    tags: ""
-    logo: "flymaster.png"
-  -
-    name: "spawn studios"
-    tags: ""
-    logo: "spawnstudios.png"
-  -
-    name: "tech4home"
-    tags: ""
-    logo: "tech4home.png"
-  -
-    name: "Hero & Creatives"
-    tags: ""
-    logo: "heroandcreatives.jpg"
-  -
-    name: "Gisgeo"
-    tags: ""
-    logo: "gisgeo.png"
-  -
-    name: "clipkit"
-    tags: ""
-    logo: "clipkit.jpg"
-  -
-    name: "flicks"
-    tags: ""
-    logo: "flicks.jpeg"
-  -
-    name: "mediagaps"
-    tags: ""
-    logo: "mediagaps.png"
-success_stories: 
   - 
     name: "Blip"
     employees: "200+"
     tags: "Sports, Betting"
     info: "Adquired by Betfair"
     logo: "blip.svg"
+    relevance: 100
+    type: 'multinational'
+    year: 2009
   -
     name: "NDrive"
     employees: "60"
     tags: "Navigation, Mobile"
     logo: "ndrive.png"
+    relevance: 99
+    type: 'startup'
+    year: 2007
   -
     name: "AdClick"
     employees: "60+"
     tags: "Digital Marketing"
     logo: "adclick.png"
+    relevance: 98
+    type: 'startup'
+    year: 2007
   -
-    name: "Enabler"
+    name: "Enabler Wipro"
     employees: "??"
     tags: "Retail, Business Intelligence"
     info: "Adquired by Wipro"
     logo: "enabler.jpg"
+    relevance: 97
+    year: 1997
   -
     name: "Tweasy"
     employees: "??"
     tags: "Marketing, Sales"
     info: "Adquired by Swisscom"
     logo: "tweasy.png"
+    relevance: 96
+    type: 'startup'
+    year: 2009
   -
     name: "Nonius Software"
     employees: "??"
     tags: "Hospitality"
     logo: "nonius.png"
+    relevance: 95
+    type: 'startup'
+    year: 2009
+  -
+    name: "Lapa"
+    tags: "Hardware, Mobile"
+    logo: "lapa.png"
+    relevance: 94
+    type: 'startup'
+    year: 2013
+  -
+    name: "Rocket Internet"
+    tags: "Incubator"
+    logo: "rocket.jpg"
+    relevance: 93
+    type: 'multinational'
+    year: 2007
+  -
+    name: "Farfetch"
+    tags: "E-commerce, Fashion"
+    logo: "farfetch.png"
+    relevance: 92
+    type: 'multinational startup'
+    year: 2008
+  -
+    name: "Todoist"
+    tags: "Mobile, Productivity"
+    logo: "todoist.png"
+    relevance: 91
+    type: 'multinational startup'
+    year: 2007
+  -
+    name: "MuchBeta"
+    tags: "Digital Agency"
+    logo: "muchbeta.jpg"
+    relevance: 90
+    type: 'agency startup'
+    year: 2008
+  -
+    name: "Nutri Ventures"
+    tags: "Education, Multimedia"
+    logo: "nutriventures.png"
+    relevance: 89
+    type: 'startup'
+    year: 2010
+  -
+    name: "Veniam Works"
+    tags: "Wireless, Networks"
+    logo: "veniamworks.png"
+    relevance: 88
+    type: 'startup'
+    year: 2009
+  -
+    name: "Kinematix"
+    tags: "Body Dynamics, Healthcare"
+    logo: "kinematix.png"
+    relevance: 87
+    type: 'startup'
+    year: 2007
+  -
+    name: "Tradiio"
+    tags: "Music, Streaming"
+    logo: "tradiio.png"
+    relevance: 86
+    type: 'startup'
+    year: 2014
+  # -
+  #   name: "Uniwee"
+  #   tags: ""
+  #   logo: "uniwee.png"
+  #   relevance: 85
+  #   type: 'startup'
+  #   year: 2009
+  -
+    name: "Semasio"
+    tags: "Online Advertising"
+    logo: "semasio.jpg"
+    relevance: 85
+    type: 'multinational'
+    year: 2010
+  -
+    name: "ScrofaTech"
+    tags: "Farm Technologies"
+    logo: "scrofatech.png"
+    relevance: 84
+    type: 'startup'
+    year: 2012
+  -
+    name: "Zizabi"
+    tags: "Geographical Data"
+    logo: "zizabi.png"
+    relevance: 83
+    type: 'startup'
+    year: 2013
+  # -
+  #   name: "EspressoMD"
+  #   tags: ""
+  #   logo: "espressomd.png"
+  #   relevance: 82
+  #   type: 'startup'
+  #   year: 2009
+  # -
+  #   name: "PaperVault"
+  #   tags: ""
+  #   logo: ""
+  #   relevance: 81
+  #   type: 'startup'
+  #   year: 2009
+  -
+    name: "WiseNeworks"
+    tags: "Agricultural Remote Monitoring"
+    logo: "wisenetworks.png"
+    relevance: 80
+    type: 'startup'
+    year: 2012
+  -
+    name: "ShiftForward"
+    tags: "Online Advertising"
+    logo: "shiftforward.gif"
+    relevance: 79
+    type: 'startup'
+    year: 2011
+  -
+    name: "Musicverb"
+    tags: "Live Music Management Platform"
+    logo: "musicverb.png"
+    relevance: 78
+    type: 'startup'
+    year: 2014
+  -
+    name: "HealthyRoad"
+    tags: "Intelligent Transportation Systems"
+    logo: "healthyroad.png"
+    relevance: 77
+    type: 'startup'
+    year: 2009
+  -
+    name: "JumpSeller"
+    tags: "Hosted E-Commerce Solutions"
+    logo: "jumpseller.png"
+    relevance: 76
+    type: 'startup'
+    year: 2009
+  -
+    name: "Covii"
+    tags: "Computer Vision Interaction"
+    logo: "covii.png"
+    relevance: 75
+    type: 'startup'
+    year: 2010
+  -
+    name: "Zercatto"
+    tags: "Online Investment Portfolio"
+    logo: "zercatto.png"
+    relevance: 74
+    type: 'startup'
+    year: 2012
+  -
+    name: "Aprodukt"
+    tags: "Mobile Accessories"
+    logo: "aprodukt.png"
+    relevance: 73
+    type: 'startup'
+    year: 2009
+  -
+    name: "Abyssal"
+    tags: ""
+    logo: "abyssal.png"
+    relevance: 72
+    type: 'startup'
+    year: 2009
+  -
+    name: "Actumvet"
+    tags: ""
+    logo: "actumvet.png"
+    relevance: 71
+    type: 'startup'
+    year: 2009
+  -
+    name: "Alboom pic"
+    tags: ""
+    logo: "alboompic.png"
+    relevance: 70
+    type: 'startup'
+    year: 2009
+  -
+    name: "Anubis Networks"
+    tags: ""
+    logo: "anubisnetworks.png"
+    relevance: 69
+    type: 'startup'
+    year: 2009
+  -
+    name: "AP4"
+    tags: ""
+    logo: "ap4.svg"
+    relevance: 68
+    type: 'startup'
+    year: 2009
+  -
+    name: "Autoviva"
+    tags: ""
+    logo: "autoviva.png"
+    relevance: 67
+    type: 'startup'
+    year: 2009
+  -
+    name: "B Interactive"
+    tags: "Tech Solutions"
+    logo: "binteractive.png"
+    relevance: 66
+    type: 'agency'
+    year: 2011
+  -
+    name: "Baboom"
+    tags: ""
+    logo: "baboom.jpg"
+    relevance: 65
+    type: 'startup'
+    year: 2009
+  -
+    name: "Digital Soul Games"
+    tags: ""
+    logo: "digitalsoulgames.png"
+    relevance: 64
+    type: 'startup'
+    year: 2009
+  -
+    name: "Canal 180"
+    tags: ""
+    logo: "180.jpg"
+    relevance: 63
+    type: 'startup'
+    year: 2009
+  -
+    name: "Color Elephant"
+    tags: "Products & Services"
+    logo: "colorelephant.png"
+    relevance: 62
+    type: 'agency'
+    year: 2012
+  -
+    name: "Byside"
+    tags: ""
+    logo: "byside.svg"
+    relevance: 61
+    type: 'startup'
+    year: 2009
+  -
+    name: "Escolha Digital"
+    tags: ""
+    logo: "escolhadigital.png"
+    relevance: 60
+    type: 'startup'
+    year: 2009
+  -
+    name: "Email Bidding"
+    tags: ""
+    logo: "emailbidding.png"
+    relevance: 59
+    type: 'startup'
+    year: 2009
+  -
+    name: "3Decide"
+    tags: ""
+    logo: "3decide.png"
+    relevance: 58
+    type: 'startup'
+    year: 2009
+  -
+    name: "Explicas-me?"
+    tags: ""
+    logo: "explicasme.png"
+    relevance: 57
+    type: 'startup'
+    year: 2009
+  -
+    name: "Claan"
+    tags: "Digital Products"
+    logo: "claan.png"
+    relevance: 56
+    type: 'agency'
+    year: 2008
+  -
+    name: "Venture Oak"
+    tags: ""
+    logo: "ventureoak.png"
+    relevance: 55
+    type: 'startup'
+    year: 2009
+  -
+    name: "Bitmaker Software"
+    tags: "Software Development"
+    logo: "bitmaker.png"
+    relevance: 54
+    type: 'agency'
+    year: 2012
+  -
+    name: "B3 Ideas"
+    tags: "Tech Solutions"
+    logo: "b3ideas.png"
+    relevance: 53
+    type: 'agency'
+    year: 2012
+  -
+    name: "FoodInTech"
+    tags: ""
+    logo: "foodintech.png"
+    relevance: 52
+    type: 'startup'
+    year: 2009
+  -
+    name: "GS78"
+    tags: ""
+    logo: "gamestudio78.png"
+    relevance: 51
+    type: 'startup'
+    year: 2009
+  -
+    name: "Glazed Solutions"
+    tags: ""
+    logo: "glazedsolutions.png"
+    relevance: 50
+    type: 'startup'
+    year: 2009
+  -
+    name: "Inov Retail"
+    tags: ""
+    logo: "inovretail.png"
+    relevance: 49
+    type: 'startup'
+    year: 2009
+  -
+    name: "Cashtag"
+    tags: ""
+    logo: "cashtag.png"
+    relevance: 48
+    type: 'startup'
+    year: 2009
+  -
+    name: "Jscrambler"
+    tags: ""
+    logo: "jscrambler.png"
+    relevance: 47
+    type: 'startup'
+    year: 2009
+  -
+    name: "Hoaba Interactive"
+    tags: ""
+    logo: "goaba.png"
+    relevance: 46
+    type: 'startup'
+    year: 2009
+  -
+    name: "Get a Fest!"
+    tags: ""
+    logo: "gestafest.jpg"
+    relevance: 45
+    type: 'startup'
+    year: 2009
+  -
+    name: "Go2oporto"
+    tags: ""
+    logo: "go2oporto.png"
+    relevance: 44
+    type: 'startup'
+    year: 2009
+  -
+    name: "Ideavity"
+    tags: ""
+    logo: "ideavity.png"
+    relevance: 43
+    type: 'startup'
+    year: 2009
+  -
+    name: "LabOrders"
+    tags: ""
+    logo: "laborders.png"
+    relevance: 42
+    type: 'startup'
+    year: 2009
+  -
+    name: "Landka"
+    tags: ""
+    logo: "landka.png"
+    relevance: 41
+    type: 'startup'
+    year: 2009
+  -
+    name: "Last2Ticket"
+    tags: ""
+    logo: "last2ticket.jpg"
+    relevance: 40
+    type: 'startup'
+    year: 2009
+  -
+    name: "Listary"
+    tags: ""
+    logo: "listary.jpg"
+    relevance: 39
+    type: 'product'
+    year: 2009
+  -
+    name: "MassiveMov"
+    tags: ""
+    logo: "massivemov.png"
+    relevance: 38
+    type: 'startup'
+    year: 2009
+  -
+    name: "Memeoirs"
+    tags: ""
+    logo: "memeoirs.png"
+    relevance: 37
+    type: 'startup'
+    year: 2009
+  -
+    name: "Planify"
+    tags: ""
+    logo: "planify.png"
+    relevance: 36
+    type: 'startup'
+    year: 2009
+  -
+    name: "OceanScan"
+    tags: ""
+    logo: "oceanscan.jpeg"
+    relevance: 35
+    type: 'startup'
+    year: 2009
+  -
+    name: "Niiiws"
+    tags: ""
+    logo: "niiiws.jpg"
+    relevance: 34
+    type: 'product'
+    year: 2009
+  -
+    name: "Netpeças"
+    tags: ""
+    logo: "netpecas.jpeg"
+    relevance: 33
+    type: 'startup'
+    year: 2009
+  -
+    name: "Whizztek"
+    tags: ""
+    logo: "whizztek.jpeg"
+    relevance: 32
+    type: 'startup'
+    year: 2009
+  -
+    name: "Portugalio"
+    tags: ""
+    logo: "portugalio.jpeg"
+    relevance: 31
+    type: 'startup'
+    year: 2009
+  -
+    name: "Porto24"
+    tags: ""
+    logo: "porto24.jpeg"
+    relevance: 30
+    type: 'startup'
+    year: 2009
+  -
+    name: "Orzare"
+    tags: ""
+    logo: "orzare.png"
+    relevance: 29
+    type: 'startup'
+    year: 2009
+  -
+    name: "Songvice"
+    tags: ""
+    logo: "songvice.jpg"
+    relevance: 28
+    type: 'startup'
+    year: 2009
+  -
+    name: "Skilleo"
+    tags: ""
+    logo: "skilleo.jpeg"
+    relevance: 27
+    type: 'startup'
+    year: 2009
+  -
+    name: "Streambolico"
+    tags: ""
+    logo: "streambolico.png"
+    relevance: 26
+    type: 'startup'
+    year: 2009
+  -
+    name: "Taggeo"
+    tags: ""
+    logo: "taggeo.png"
+    relevance: 25
+    type: 'startup'
+    year: 2009
+  -
+    name: "Top Research"
+    tags: ""
+    logo: "topresearch.png"
+    relevance: 24
+    type: 'startup'
+    year: 2009
+  -
+    name: "Tuizzi"
+    tags: ""
+    logo: "tuizzi.png"
+    relevance: 23
+    type: 'startup'
+    year: 2009
+  -
+    name: "Ueb"
+    tags: ""
+    logo: "ueb.png"
+    relevance: 22
+    type: 'startup'
+    year: 2009
+  -
+    name: "Visionspace"
+    tags: ""
+    logo: "visionspace.png"
+    relevance: 21
+    type: 'startup'
+    year: 2009
+  -
+    name: "Xhockware"
+    tags: ""
+    logo: "xhockware.jpg"
+    relevance: 20
+    type: 'startup'
+    year: 2009
+  -
+    name: "Adjust Consulting"
+    tags: "Healthcare Solutions"
+    logo: "adjustconsulting.png"
+    relevance: 19
+    type: 'agency'
+    year: 2009
+  -
+    name: "CardMobili"
+    tags: "Digital Wallet"
+    logo: "cardmobili.jpg"
+    relevance: 18
+    type: 'startup'
+    year: 2009
+  -
+    name: "Bunker Studios"
+    tags: "Digital Experiences"
+    logo: "bunkerstudios.png"
+    relevance: 17
+    type: 'agency'
+    year: 2012
+  -
+    name: "Hostname"
+    tags: "Web & Mobile Development"
+    logo: "hostname.png"
+    relevance: 16
+    type: 'agencys'
+    year: 2009
+  -
+    name: "Ideia.M"
+    tags: "Aircraft Engineering"
+    logo: "ideiam.png"
+    relevance: 15
+    type: 'startup'
+    year: 2008
+  -
+    name: "LatitudeN"
+    tags: "Location-based Solutions"
+    logo: "latituden.gif"
+    relevance: 14
+    type: 'startup multinational'
+    year: 2009
+  -
+    name: "Venture Catalysts"
+    tags: "Technology Commercialization"
+    logo: "venturecatalysts.png"
+    relevance: 13
+    type: 'startup'
+    year: 2009
+  -
+    name: "Sphere"
+    tags: "Laser Technologies"
+    logo: "sphere.jpg"
+    relevance: 12
+    type: 'startup'
+    year: 2013
+  -
+    name: "Silicon Gate"
+    tags: "Integrated Circuit Design"
+    logo: "silicongate.gif"
+    relevance: 11
+    type: 'startup'
+    year: 2008
+  -
+    name: "Flymaster Avionics"
+    tags: "Aviation Solutions"
+    logo: "flymaster.png"
+    relevance: 10
+    type: 'startup'
+    year: 2007
+  -
+    name: "Spawn Studios"
+    tags: "Video Games Studio"
+    logo: "spawnstudios.png"
+    relevance: 9
+    type: 'agency'
+    year: 2008
+  -
+    name: "Tech 4 Home"
+    tags: "Remote Control Solutions"
+    logo: "tech4home.png"
+    relevance: 8
+    type: 'startup'
+    year: 2009
+  -
+    name: "Hero & Creatives"
+    tags: "Photo Travel Diaries"
+    logo: "heroandcreatives.jpg"
+    relevance: 7
+    type: 'startup'
+    year: 2012
+  -
+    name: "Gisgeo"
+    tags: "Geographical Systems"
+    logo: "gisgeo.png"
+    relevance: 6
+    type: 'startup'
+    year: 2012
+  -
+    name: "Clipkit"
+    tags: "Online Video Marketing"
+    logo: "clipkit.jpg"
+    relevance: 5
+    type: 'multinational'
+    year: 2008
+  -
+    name: "Flicks Systems"
+    tags: "Fire Combat Systems"
+    logo: "flicks.jpeg"
+    relevance: 4
+    type: 'startup'
+    year: 2009
+  -
+    name: "Mediagaps"
+    tags: "Digital Media, Computer Vision"
+    logo: "mediagaps.png"
+    relevance: 3
+    type: 'agency'
+    year: 2009
+
+incubators:
+  -
+    name: "UPTEC TECH"
+    logo: "UPTECtech.jpg"
+    type: "incubator"
+  -
+    name: "UPTEC PINC"
+    logo: "UPTECpinc.jpg"
+    type: "incubator"
+  -
+    name: "UPTEC MAR"
+    logo: "UPTECmar.jpg"
+    type: "incubator"
+  -
+    name: "UPTEC BIO"
+    logo: "UPTECbio.jpg"
+    type: "incubator"
+  -
+    name: "ANJE LINC"
+    logo: "anje-linc.jpg"
+    type: "incubator"
+  -
+    name: "Quadra Mercado"
+    logo: ""
+    type: "incubator"
+  -
+    name: "inovaGaia"
+    logo: "inovagaia.png"
+    type: "incubator"
+  -
+    name: "TecMaia"
+    logo: "tecmaia.jpg"
+    type: "incubator"
+  -
+    name: "TecVal"
+    logo: "tecval.png"
+    type: "incubator"
+  -
+    name: "FeiraPark"
+    logo: "feirapark.jpeg"
+    type: "incubator"
+  -
+    name: "SpinLogic"
+    logo: "spinlogic.jpg"
+    type: "incubator"
+  -
+    name: "Ninhos de Empresas"
+    logo: "ninhos_de_empresas.jpg"
+    type: "incubator"
+  -
+    name: "Sanjo Tec"
+    logo: "sanjotec.png"
+    type: "incubator"
+  -
+    name: "Fábrica Santo Thyrso"
+    logo: "fabrica-santo-thyrso.svg"
+    type: "incubator"
+  -
+    name: "Net Sa"
+    logo: ""
+    type: "incubator"
+  -
+    name: "CIDEB"
+    logo: ""
+    type: "incubator"
+  -
+    name: "INESC Porto"
+    logo: "INESC-Porto.png"
+    type: "research"
+  -
+    name: "Ipatimup"
+    logo: "ipatimup.png"
+    type: "research"
+  -
+    name: "Centro de Astrofísica da UP"
+    logo: "centroastrofisica-up.jpg"
+    type: "research"
+  -
+    name: "Inegi"
+    logo: "inegi.gif"
+    type: "research"
+  -
+    name: "KMILT"
+    logo: "kmilt.ong"
+    type: "research"
+  -
+    name: "UISPA"
+    logo: "uispa.gif"
+    type: "research"
+  -
+    name: "C3P"
+    logo: ""
+    type: "research"
+  -
+    name: "Fraunhofer"
+    logo: "fraunhofer.png"
+    type: "research"
+  -
+    name: "Future Cities Project"
+    logo: "futurecities.png"
+    type: "research"
+  -
+    name: "CICGE"
+    logo: ""
+    type: "research"
+  -
+    name: "LSA"
+    logo: "LSA.jpg"
+    type: "research"
+  -
+    name: "CIDES"
+    logo: "cides.png"
+    type: "research"
+  -
+    name: "gecad"
+    logo: "gecad.gif"
+    type: "research"
+  -
+    name: "INEB"
+    logo: "ineb.jpg"
+    type: "research"
+  -
+    name: "ISR"
+    logo: "isr.jpeg"
+    type: "research"
+  -
+    name: "Gilt"
+    logo: "gilt.png"
+    type: "research"
+  -
+    name: "CISTER"
+    logo: "cister.jpg"
+    type: "research"
+  -
+    name: "Up!"
+    logo: "up.jpg"
+    type: "cowork"
+  -
+    name: "Cool.Office"
+    logo: "cool-office.png"
+    type: "cowork"
+  -
+    name: "IMAN Cowork"
+    logo: "iman-cowork.png"
+    type: "cowork"
+  -
+    name: "Facts Coworking"
+    logo: "facts-coworking.png"
+    type: "cowork"
+  -
+    name: "Web Office"
+    logo: "web-office.jpg"
+    type: "cowork"
+  -
+    name: "N6 Cowork"
+    logo: "n6-coworking.jpg"
+    type: "cowork"
+  -
+    name: "CRU"
+    logo: "cru-coworking.png"
+    type: "cowork"
+  -
+    name: "OPO Lab"
+    logo: "opo-lab.png"
+    type: "cowork"
+  -
+    name: "Lexo Coworking"
+    logo: "lexo-coworking.jpg"
+    type: "cowork"
+  -
+    name: "Coworking Gaia"
+    logo: "coworking-gaia.jpg"
+    type: "cowork"
+  -
+    name: "VWO"
+    logo: "vwo-coworkig.jpg"
+    type: "cowork"
+  -
+    name: "Solutions Out"
+    logo: "solutionsout-coworking.png"
+    type: "cowork"
+  -
+    name: "Universidade do Porto"
+    logo: ""
+    type: "university"
+  -
+    name: "Universidade do Minho"
+    logo: ""
+    type: "university"
+  -
+    name: "Universidade de Aveiro"
+    logo: ""
+    type: "university"
+  -
+    name: "Universidade de Coimbra"
+    logo: ""
+    type: "university"
+  -
+    name: "Instituto Politécnico do Porto"
+    logo: ""
+    type: "university"

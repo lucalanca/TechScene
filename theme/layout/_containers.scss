@@ -1,6 +1,12 @@
 .grid-container {
     @include outer-container();
-    padding: 25px 0;
+    padding: $large-spacing 0;
+}
+
+.text-container {
+    @include span-columns(8);
+    @include shift(2);
+
 }
 
 .title {

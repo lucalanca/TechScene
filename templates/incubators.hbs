@@ -1,0 +1,50 @@
+---
+title: Incubators
+lead: <%= site.lead %> # this is used by the subhead component
+section_title: Incubators
+section_subtitle: Awesome incubators that are worth to mention
+---
+<div class="fullwidth-container">
+    <section class="grid-container c1">
+        <h2 class="title centered">{{section_title}}</h2>
+        <p class="subtitle centered">{{section_subtitle}}</p>
+
+        <div id="sorts" class="button-group">
+          Name: <a href="#" data-sort-by="name"   ><i class="fa fa-sort-alpha-asc"></i></a>
+                <a href="#" data-sort-by="nameDes"><i class="fa fa-sort-alpha-desc"></i></a>
+          Year: <a href="#" data-sort-by="year"   ><i class="fa fa-sort-numeric-asc"></i></a>
+                <a href="#" data-sort-by="yearDes"><i class="fa fa-sort-numeric-desc"></i></a>
+        </div>
+
+        <div id="filters" class="button-group">
+          <button data-filter="*">show all</button>
+          <button data-filter=".incubator">incubators</button>
+          <button data-filter=".research">research center</button>
+          <button data-filter=".cowork">coworking spaces</button>
+          <button data-filter=".universities">universities</button>
+        </div>
+
+        <ul class="grid-list companies-list">
+            {{#each porto.incubators}}
+                {{#unless hide}}
+                <li class="grid-item company {{type}}"
+                    data-name="{{name}}">
+                    <div class="header">
+                        <div class="logo-container">
+                            <img alt="{{name}}"
+                             class="company-logo"
+                             src="/assets/images/{{logo}}">
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="links">
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <p class="company-name">{{name}}</p>
+                    </div>
+                </li>
+                {{/unless}}
+            {{/each}}
+            </ul>
+        </section>
+</div>

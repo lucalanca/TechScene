@@ -30,16 +30,24 @@ $gutter: golden-ratio(1em, 1);
 // $visual-grid: true;
 $max-width: 1060px;
 @import "neat/neat";
-@import "bitters/bitters";
+// @import "bitters/bitters";
+// 
+
+@import "vars-typeplate";
+@import "../vendor/typeplate-starter-kit/scss/typeplate";
+
+@import "../vendor/font-awesome/scss/font-awesome";
+
+
 @import "helpers/helpers";
 
 @import "layout/containers";
 
 @import "components/headers";
-@import "components/main-content";
 @import "components/card-grid";
 @import "components/grid-list";
 @import "components/top-bar";
+@import "components/buttons";
 
 
 /**
