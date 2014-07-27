@@ -1,0 +1,17 @@
+mixin company-thumbnail (company, tag)
+  - tag = tag || "li"
+  #{tag}.company-thumbnail
+    .company-thumbnail-header
+      .company-thumbnail-logo-container
+        img.company-thumbnail-logo(
+          src="#{relativePath}/assets/companies/#{company.logo}",
+          alt="#{company.name}",
+        )
+      p.info #{company.info}
+    .company-thumbnail-details
+      h2.company-thumbnail-name #{company.name}
+      p.company-thumbnail-year  #{company.year}
+      p.company-thumbnail-tags  #{company.tags}
+    .company-detail-view.is-visuallyhidden
+      h1 #{company.name}
+      include:md ../../data/companies/blip.md

@@ -1,0 +1,62 @@
+@import
+    "bonescss/2.layout",
+    "sensible/grid";
+
+@include sensibleGrid (
+    $modern: false,
+    $gutter: 20px,
+    $base-font-size: 16px,
+    $slug: "l-",
+    $gutterModifiers: (
+        "no-gap"            : 0,
+        "double"            : 40px,
+        "triple"            : 60px
+    ),
+    $pushClasses: false,
+    $gridWidths: (
+        "one-whole"         : 100%,
+        "one-half"          : 50%,
+        "one-quarter"       : 25%,
+        "three-quarters"    : 75%,
+        "one-third"         : 33.333%,
+        "two-thirds"        : 66.666%,
+        "one-fifth"         : 20%,
+        "four-fifths"       : 80%,
+        "one-sixth"         : 16.666%,
+        "five-sixths"       : 83.333%
+    ),
+    $gridBreakpoints: "mobile-portrait" "mobile" "not-mobile" "tablet-portrait" "tablet" "not-tablet"  "print"
+);
+
+.l-element-grid {
+    @extend .l-grid;
+}
+
+.l-main-content {
+    box-sizing: border-box;
+    position: fixed;
+    overflow: scroll;
+    width: 80%;
+    height: 100%;
+    left: 20%;
+    padding: 2*$s-gutter;
+}
+
+.l-detail-view {
+    $detail-view-width: 800px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: -$detail-view-width;
+    width: $detail-view-width;
+    height: 100%;
+    overflow: scroll;
+    background: #ccc;
+    padding: 2*$s-gutter;
+    padding-right: 200px;
+    // see animation here: http://cubic-bezier.com/#.23,.44,.54,1.37
+    transition: right 400ms cubic-bezier(0.230, 0.440, 0.540, 1.370);
+    &.active {
+        right: -200px + 2*$s-gutter;
+    }
+}

@@ -1,49 +1,88 @@
-# boilerplate [![NPM version](https://badge.fury.io/js/assemble-boilerplate.png)](http://badge.fury.io/js/assemble-boilerplate)
+<img id="logo" align="right" height="90" style="margin: 0 0 20px 20px" src="http://imgh.us/skeleton.svg">
 
-> Boilerplate for [Assemble](https://github.com/assemble/assemble)
+# Skeleton
 
-Please [create an issue](https://github.com/assemble/boilerplate/issues) if you find a bug or have a feature request.
+## What is skeleton
+Skeleton is a static site generator that can serve as a boilerplate for different frontend projects. It includes:
+- defines a folder structure to develop a web app
+- defines a way to write reusable web components (HTML / CSS / JS)
+- includes a grunt task to compile jade and translated data files
+- makes use of some custom CSS & JS we often reuse on projects
+- generates a styleguide for the defaults styles and documenting the components
+
+## Guides
+
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Reusable Components](#reusable-components)
+- [Jade templates, Data and translation](#templates)
+- [JS / CSS Toolset](#toolset)
+- [Styleguide](#styleguide)
+
+## <a id="getting-started">Getting started</a>
+
+### Setting up a new project
+To start a new project, create a new repository on git and add the skeleton repository as remote:
+
+    git remote add skeleton https://github.com/ginetta/skeleton.git 
+
+Fetch the data from skeleton:
+
+    git pull skeleton/master
+
+That's it, you should have the boilerplate in your project.
+Find and replace "skeleton-project" by your "project-name" in the whole project (CMD + SHIFT + F on Sublime Text). You can now check in all those files in your repo and push them to your git:
+
+    git commit -a
+    git push origin/master
+
+### Using the skeleton
+
+#### Prerequisites
+You will need 
+  - [node.js](http://nodejs.org/) to run the skeleton.
+  - [Ruby](https://www.ruby-lang.org/en/) and [Compass](http://compass-style.org/install/) to compile the css
+  - [grunt-cli](https://github.com/gruntjs/grunt-cli) to run the grunt commands
+
+#### Installation
+
+Make sure you use the lastest gems and compass:
+
+    (sudo) gem update --system && gem install compass
+
+Install all the project dependencies:
+    
+    npm install
 
 
-## Getting Started
+### Generate the app
 
-**1. Download the project**
+To build the project, just run
 
-Install the project locally using one of the following options:
+    grunt
 
-* Using git: `git clone git://github.com/assemble/boilerplate.git`
-* [Download the project](https://github.com/assemble/boilerplate/archive/master.zip)
-
-Next, to optionally install [Bootstrap](https://github.com/twbs/bootstrap) using [Bower](https://github.com/bower/bower), simply run
-
-```bash
-bower install
-```
-
-**2. Install Dependencies**
-
-Run `npm i` to install dependencies.
-
-**3. Build**
-
-If everything installed correctly, running `grunt` in the command line should successfully build the project to the `./_gh_pages` directory inside the project.
-
-**4. Remove "first run" Targets**
-
-Inside the [Gruntfile](./Gruntfile.js) you will find a few targets that should be removed after the first run. These are labeled accordingly.
+It will generate all the files, start a server and open your browser with the project index
 
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].
+## <a id="folder-structure">Folder Structure</a>
+## <a id="reusable-components">Reusable Components</a>
 
-## License
-Copyright (c) 2013 Jon Schlinkert
-Licensed under the [MIT license](LICENSE-MIT).
 
-***
+## <a id="templates">Jade templates, Data and translation</a>
 
-Project created by [Jon Schlinkert](https://github.com/jonschlinkert).
 
-_This file was generated on Saturday, December 7, 2013._
+## <a id="reusable-components">Reusable Components</a>
+### Concept
+### How to create a new component
 
-[grunt]: http://gruntjs.com
+
+## <a id="toolset">JS / CSS Toolset</a>
+
+
+## <a id="styleguide">Styleguide</a>
+
+## Bonus
+
+- Under OSX it will be helpfull if you install brew: http://brew.sh/
+- Install the `Jade` and `SCSS` Sublime Text packages to get syntax highlighting
+- Quick Jade syntax tour: http://www.learnjade.com/
