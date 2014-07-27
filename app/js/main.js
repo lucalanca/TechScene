@@ -1,7 +1,7 @@
 /*jslint browser: true */
 /*global require: true, requirejs: true, $: true */
 
-(function(){
+(function() {
     'use strict';
 
     /*
@@ -13,6 +13,8 @@
           console.log('mycomponent is loaded');
       });
     */
+    require(['companyThumbnail'], function() {
+        console.log('companyThumbnail loaded');
+    })
 
 })();
-

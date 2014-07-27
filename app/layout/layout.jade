@@ -15,8 +15,11 @@ html.no-js(lang='en')
 
   body
     include /components/components
-    block htmlbody
-
+    +sidebar
+    article.l-main-content
+      block htmlbody
+    article.l-detail-view
+      block detailview
     block js
       script(src='#{relativePath}/bower_components/requirejs/require.js')
       script(src='#{relativePath}/js/main.js')
@@ -26,10 +29,11 @@ html.no-js(lang='en')
           baseUrl: '#{relativePath}/js/',
           paths: {
             jquery: '#{relativePath}bower_components/jquery/dist/jquery',
-            mediaQuery: '#{relativePath}bower_components/sensible/mediaQuery'
+            mediaQuery: '#{relativePath}bower_components/sensible/mediaQuery',
             /* add compoenents as this
-            mycomponent: '#{relativePath}components/mycomponent/mycomponent'
+            company-thumbnail: '#{relativePath}components/mycomponent/mycomponent'
             */
+           "companyThumbnail": '#{relativePath}components/company-thumbnail/company-thumbnail'
           },
           shim: {}
         });

@@ -1,0 +1,13 @@
+extends /layout/layout
+
+block htmlhead
+    title tech-scene
+    meta(name='description', content='')
+
+block htmlbody
+  ul.companies.l-element-grid
+    each company in data.companies
+      +company-thumbnail(company, "li")
+
+block detailview
+  h1 Company Data

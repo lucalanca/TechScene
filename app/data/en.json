@@ -1,14 +1,14 @@
 {
     "companies": [{
-        "name": "Blip",
-        "employees": "200+",
-        "tags": "Sports, Betting",
-        "info": "Adquired by Betfair",
-        "logo": "blip.svg",
-        "relevance": 100,
-        "type": "multinational",
-        "year": 2009
-    }, {
+            "name": "Blip",
+            "employees": "200+",
+            "tags": "Sports, Betting",
+            "info": "Adquired by Betfair",
+            "logo": "blip.svg",
+            "relevance": 100,
+            "type": "multinational",
+            "year": 2009
+        }, {
         "name": "NDrive",
         "employees": "60",
         "tags": "Navigation, Mobile",
